@@ -37,6 +37,17 @@ header{
   justify-content: space-evenly;
 }
 
+.producto-img{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 2px;
+}
+
+.tenis{
+  border-radius: 1rem;
+}
+
 .producto{
   background: linear-gradient(#dee2e6, #000000);
   border-radius: 20px;
